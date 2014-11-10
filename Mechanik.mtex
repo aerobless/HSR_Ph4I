@@ -2,7 +2,7 @@
 
 1. Eine Strassenlampe mit einem Gewicht von 40N hängt an 2 Drahtseilen die zur Horizontalen einen Winkel von 6° bilden. Wie gross ist die Zugkraft in den Seilen?
 
-![Exercise 1](/Users/theowinter/git/Physik1I/images/ex1.png)
+![Exercise 1](https://github.com/aerobless/Physik1I/raw/master/images/ex1.png)
   
 **Generische Komponenten-Gleichung:**
 $$ X-Komponente: F1_x + F2_x + FG_x = 0 $$
