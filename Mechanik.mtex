@@ -1,0 +1,15 @@
+#Mechanik
+
+1. Eine Strassenlampe mit einem Gewicht von 40N hängt an 2 Drahtseilen die zur Horizontalen einen Winkel von 6° bilden. Wie gross ist die Zugkraft in den Seilen?
+
+![Exercise 1](/Users/theowinter/git/Physik1I/images/ex1.png)
+  
+**Generische Komponenten-Gleichung:**
+$$ X-Komponente: F1_x + F2_x + FG_x = 0 $$
+$$ Y-Komponente: F1_y + F2_y + FG_y = 0 $$
+
+**Angewandte Komponenten-Gleichung:**
+Die Umwandlung von "$$F1_x$$" zu "$$-\cos(\alpha)*F1$$" erfolgt mit der Kosinus-Winkelfunktion ($$ \sin(\alpha) = Ankathete/Hypothenuse $$) Zuerst -cos weil das Koordinaten-System in der Mitte ist (grün), d.h. links --> negativ.
+  
+$$ -\cos(\alpha)*F1 + \cos(\beta)*F2 + 0 = 0 $$ `<Comment>  Hat kein Effekt da sich -cos und +cos wieder aufheben.`
+$$\sin(\alpha)*F1 + \sin(\alpha)*F2 -FG $$
