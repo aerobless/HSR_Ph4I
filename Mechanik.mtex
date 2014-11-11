@@ -62,5 +62,12 @@ Welcher Haftreibungskoeffizient ist erforderlich, damit ein Körper auf einer Eb
 
 ![Exercise 4](https://github.com/aerobless/Physik1I/raw/master/images/ex4.png)
 
+**Angewandte Komponenten-Gleichung:**
+$$ X-Komponente: F_R-F_G\sin(\alpha) = 0 $$
+$$ Y-Komponente: F_N-F_G\cos(\alpha) = 0 $$
 
+**Definition des Reibungskoeffizienten:**
+$$ F_{R,max} = \mu_H*F_N $$
+
+d.h. $$ \mu_H = {F_R\over{F_N}} = {F_G\sin(\alpha)\over F_G\cos(\alpha)} = tan(\alpha) $$
 
