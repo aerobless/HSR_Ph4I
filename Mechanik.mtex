@@ -3,6 +3,7 @@
 
 #Mechanik
 
+
 ##Aufgabe 1
 Eine Strassenlampe mit einem Gewicht von 40N hängt an 2 Drahtseilen die zur Horizontalen einen Winkel von 6° bilden. Wie gross ist die Zugkraft in den Seilen?
 
@@ -23,6 +24,7 @@ $$ 2F*\sin(\alpha) = FG$$
 $$ F*\sin(\alpha) = FG/2$$ // :2
 $$ F = FG/2*\sin(\alpha)$$ // :$$\sin(\alpha)$$
 $$ F = 40/2*\sin(6°) = 191.3N$$
+
 
 ##Aufgabe 2
 Wie gross ist die maximale Last, doe an einen Kranarm gehängt werden kann, wenn das Seil A mit maximal 10'000N und die Stütze B mit maximal 20'000N belastet werden darf? Eigengewichte vernachlässigen.
@@ -49,5 +51,16 @@ Mit der Y-Komponenten Gleichung kann man nun die maximale Gewichtskraft ermittel
 
 $$ FB\sin(\beta)+FA\sin(\alpha)=FG $$
 $$ 12'247*\sin(30°)+10'000*\sin(45°)=  \underline{\underline{13660N}} $$
+
+
+##Aufgabe 3
+tbd
+
+  
+##Aufgabe 4
+Welcher Haftreibungskoeffizient ist erforderlich, damit ein Körper auf einer Ebene mit Neigungswinkel $$\alpha$$ gerade noch haften bleibt?
+
+![Exercise 4](https://github.com/aerobless/Physik1I/raw/master/images/ex4.png)
+
 
 
