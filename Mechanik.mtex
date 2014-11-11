@@ -25,3 +25,7 @@ $$ F = FG/2*\sin(\alpha)$$ // :$$\sin(\alpha)$$
 $$ F = 40/2*\sin(6°) = 191.3N$$
 
 ##Aufgabe 2
+Wie gross ist die maximale Last, doe an einen Kranarm gehängt werden kann, wenn das Seil A mit maximal 10'000N und die Stütze B mit maximal 20'000N belastet werden darf? Eigengewichte vernachlässigen.
+
+![Exercise 2](https://github.com/aerobless/Physik1I/raw/master/images/ex2.png)
+
