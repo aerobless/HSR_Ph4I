@@ -34,6 +34,20 @@ $$ X-Komponente: FA_x + FB_x + FG_x = 0 $$
 $$ Y-Komponente: FA_y + FB_y + FG_y = 0 $$
 
 **Angewandte Komponenten-Gleichung:**
-$$ X-Komponente: FB\cos(\beta)-FA\cos(\alpha)=0) $$ `<Comment> FG ist 0 hier und kann daher weggelassen werden.`
-$$ Y-Komponente: FB\sin(\beta)+FA\sin(\alpha)-FG=0) $$
+$$ X-Komponente: FB\cos(\beta)-FA\cos(\alpha)=0 $$ `<Comment> FG ist 0 hier und kann daher weggelassen werden.`
+$$ Y-Komponente: FB\sin(\beta)+FA\sin(\alpha)-FG=0 $$
+
+Die X-Komponenten Gleichung zeigt das Gleichgewicht zwischen Kraft FB und FA. Die Y-Komponentengleichung wird für die maximale Gewichtskraft verwendet.
+
+**Belastungsgrenzen testen:**
+$$ FA = {\cos(\alpha -> 45°))\over\cos(\beta -> 30°)} *20'000N = 16330N$$ `<Comment> 16'330N ist mehr als FA mit 10'000 erträgt`
+  
+$$ FB = {\cos(\beta -> 30°))\over\cos(\alpha -> 45°)} *10'000N = 12247N$$ `<Comment> 12'247N ist weniger als FB mit 20'000 erträgt`
+
+**Maximale Belastung:**
+Mit der Y-Komponenten Gleichung kann man nun die maximale Gewichtskraft ermitteln.
+
+$$ FB\sin(\beta)+FA\sin(\alpha)=FG $$
+$$ 12'247*\sin(30°)+10'000*\sin(45°)=  \underline{\underline{13660N}} $$
+
 
