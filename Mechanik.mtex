@@ -15,8 +15,8 @@ $$ Y-Komponente: F1_y + F2_y + FG_y = 0 $$
 **Angewandte Komponenten-Gleichung:**
 Die Umwandlung von "$$F1_x$$" zu "$$-\cos(\alpha)*F1$$" erfolgt mit der Kosinus-Winkelfunktion ($$ \sin(\alpha) = Ankathete/Hypothenuse $$) Zuerst -cos weil das Koordinaten-System in der Mitte ist (grün), d.h. links --> negativ.
   
-$$ -\cos(\alpha)*F1 + \cos(\beta)*F2 + 0 = 0 $$ `<Comment>  Hat kein Effekt da sich -cos und +cos wieder aufheben.`
-$$\sin(\alpha)*F1 + \sin(\alpha)*F2 -FG $$
+$$ X-Komponente: -\cos(\alpha)*F1 + \cos(\beta)*F2 + 0 = 0 $$ `<Comment>  Hat kein Effekt da sich -cos und +cos wieder aufheben.`
+$$ Y-Komponente: \sin(\alpha)*F1 + \sin(\alpha)*F2 -FG $$
 
 **Auflösen:**
 $$ 2F*\sin(\alpha) = FG$$
@@ -28,4 +28,12 @@ $$ F = 40/2*\sin(6°) = 191.3N$$
 Wie gross ist die maximale Last, doe an einen Kranarm gehängt werden kann, wenn das Seil A mit maximal 10'000N und die Stütze B mit maximal 20'000N belastet werden darf? Eigengewichte vernachlässigen.
 
 ![Exercise 2](https://github.com/aerobless/Physik1I/raw/master/images/ex2.png)
+
+**Generische Komponenten-Gleichung:**
+$$ X-Komponente: FA_x + FB_x + FG_x = 0 $$
+$$ Y-Komponente: FA_y + FB_y + FG_y = 0 $$
+
+**Angewandte Komponenten-Gleichung:**
+$$ X-Komponente: FB\cos(\beta)-FA\cos(\alpha)=0) $$ `<Comment> FG ist 0 hier und kann daher weggelassen werden.`
+$$ Y-Komponente: FB\sin(\beta)+FA\sin(\alpha)-FG=0) $$
 
