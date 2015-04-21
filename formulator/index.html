@@ -3,7 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Ph4I - Formulator</title>
-    
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <!-- MathJax JS-->
     <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
@@ -14,29 +17,32 @@
     
 </head>
 <body>
-<table class="table table-striped">
-    <tr>
-        <th>Topic</th>
-        <th>Formula Name</th>
-        <th>Book Page</th>
-        <th>Formula</th>
-        <th>Example</th>
-    </tr>
-    <tr>
-        <td>Optik</td>
-        <td>Snell's law / Brechungsgesetz</td>
-        <td><b>Gesetz: </b>S365 <br> <b>Brechzahlen: </b>T35</td>
-        <td>$$\frac { sin(\alpha ) }{ sin(\beta ) } =\frac { Lichtgesch.\quad M1 }{ Lichtgesch.\quad M2 } =\frac { Brechzahl2 }{ Brechzahl1 } $$</td>
-        <td>$${ =\quad n }_{ air }*sin(35°)={ n }_{ water }*sin(\theta )\\ =\quad \frac { 1.00029*sin(35°) }{ 1.33 } =\frac { 1.33*sin(\theta ) }{ 1.33 } \\ =\quad \frac { 1.00029*sin(35°) }{ 1.33 } =\quad sin(\theta )\\ =\quad arcsin(0.4314)\quad =\quad \theta $$</td>
-    </tr>
-    <tr>
-        <td>Topic</td>
-        <td>Formula Name</td>
-        <td>Book Page</td>
-        <td>Formula</td>
-        <td>Example</td>
-    </tr>
-</table>
+<h1>Ph4I - Formulator</h1>
+<div class="body">
+    <table class="table table-striped">
+        <tr>
+            <th>Topic</th>
+            <th>Formula Name</th>
+            <th>Book Page</th>
+            <th>Formula</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>Optik</td>
+            <td>Snell's law / Brechungsgesetz</td>
+            <td><b>Gesetz: </b>S365 <br> <b>Brechzahlen: </b>T35</td>
+            <td>$$\frac { sin(\alpha ) }{ sin(\beta ) } =\frac { Lichtgesch.\quad M1 }{ Lichtgesch.\quad M2 } =\frac { Brechzahl2 }{ Brechzahl1 } $$</td>
+            <td>$${ =\quad n }_{ air }*sin(35°)={ n }_{ water }*sin(\theta )\\ =\quad \frac { 1.00029*sin(35°) }{ 1.33 } =\frac { 1.33*sin(\theta ) }{ 1.33 } \\ =\quad \frac { 1.00029*sin(35°) }{ 1.33 } =\quad sin(\theta )\\ =\quad arcsin(0.4314)\quad =\quad \theta $$</td>
+        </tr>
+        <tr>
+            <td>Topic</td>
+            <td>Formula Name</td>
+            <td>Book Page</td>
+            <td>Formula</td>
+            <td>Example</td>
+        </tr>
+    </table>
+</div>
 
 </body>
 </html>
