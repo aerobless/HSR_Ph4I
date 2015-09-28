@@ -1,0 +1,73 @@
+[comment]: <> (Document Syntax: Markdown outline + Latex for math.) 
+[comment]: <> (Author: Theo Winter)
+
+#Mechanik
+
+
+##Aufgabe 1
+Eine Strassenlampe mit einem Gewicht von 40N hängt an 2 Drahtseilen die zur Horizontalen einen Winkel von 6° bilden. Wie gross ist die Zugkraft in den Seilen?
+
+![Exercise 1](https://github.com/aerobless/Physik1I/raw/master/images/ex1.png)
+  
+**Generische Komponenten-Gleichung:**
+$$ X-Komponente: F1_x + F2_x + FG_x = 0 $$
+$$ Y-Komponente: F1_y + F2_y + FG_y = 0 $$
+
+**Angewandte Komponenten-Gleichung:**
+Die Umwandlung von "$$F1_x$$" zu "$$-\cos(\alpha)*F1$$" erfolgt mit der Kosinus-Winkelfunktion ($$ \sin(\alpha) = Ankathete/Hypothenuse $$) Zuerst -cos weil das Koordinaten-System in der Mitte ist (grün), d.h. links --> negativ.
+  
+$$ X-Komponente: -\cos(\alpha)*F1 + \cos(\beta)*F2 + 0 = 0 $$ `<Comment>  Hat kein Effekt da sich -cos und +cos wieder aufheben.`
+$$ Y-Komponente: \sin(\alpha)*F1 + \sin(\alpha)*F2 -FG $$
+
+**Auflösen:**
+$$ 2F*\sin(\alpha) = FG$$
+$$ F*\sin(\alpha) = FG/2$$ // :2
+$$ F = FG/2*\sin(\alpha)$$ // :$$\sin(\alpha)$$
+$$ F = 40/2*\sin(6°) = 191.3N$$
+
+
+##Aufgabe 2
+Wie gross ist die maximale Last, doe an einen Kranarm gehängt werden kann, wenn das Seil A mit maximal 10'000N und die Stütze B mit maximal 20'000N belastet werden darf? Eigengewichte vernachlässigen.
+
+![Exercise 2](https://github.com/aerobless/Physik1I/raw/master/images/ex2.png)
+
+**Generische Komponenten-Gleichung:**
+$$ X-Komponente: FA_x + FB_x + FG_x = 0 $$
+$$ Y-Komponente: FA_y + FB_y + FG_y = 0 $$
+
+**Angewandte Komponenten-Gleichung:**
+$$ X-Komponente: FB\cos(\beta)-FA\cos(\alpha)=0 $$ `<Comment> FG ist 0 hier und kann daher weggelassen werden.`
+$$ Y-Komponente: FB\sin(\beta)+FA\sin(\alpha)-FG=0 $$
+
+Die X-Komponenten Gleichung zeigt das Gleichgewicht zwischen Kraft FB und FA. Die Y-Komponentengleichung wird für die maximale Gewichtskraft verwendet.
+
+**Belastungsgrenzen testen:**
+$$ FA = {\cos(\alpha -> 45°))\over\cos(\beta -> 30°)} *20'000N = 16330N$$ `<Comment> 16'330N ist mehr als FA mit 10'000 erträgt`
+  
+$$ FB = {\cos(\beta -> 30°))\over\cos(\alpha -> 45°)} *10'000N = 12247N$$ `<Comment> 12'247N ist weniger als FB mit 20'000 erträgt`
+
+**Maximale Belastung:**
+Mit der Y-Komponenten Gleichung kann man nun die maximale Gewichtskraft ermitteln.
+
+$$ FB\sin(\beta)+FA\sin(\alpha)=FG $$
+$$ 12'247*\sin(30°)+10'000*\sin(45°)=  \underline{\underline{13660N}} $$
+
+
+##Aufgabe 3
+tbd
+
+  
+##Aufgabe 4
+Welcher Haftreibungskoeffizient ist erforderlich, damit ein Körper auf einer Ebene mit Neigungswinkel $$\alpha$$ gerade noch haften bleibt?
+
+![Exercise 4](https://github.com/aerobless/Physik1I/raw/master/images/ex4.png)
+
+**Angewandte Komponenten-Gleichung:**
+$$ X-Komponente: F_R-F_G\sin(\alpha) = 0 $$
+$$ Y-Komponente: F_N-F_G\cos(\alpha) = 0 $$
+
+**Definition des Reibungskoeffizienten:**
+$$ F_{R,max} = \mu_H*F_N $$
+
+d.h. $$ \mu_H = {F_R\over{F_N}} = {F_G\sin(\alpha)\over F_G\cos(\alpha)} = tan(\alpha) $$
+
